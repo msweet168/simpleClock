@@ -83,6 +83,7 @@ class ViewController: UIViewController {
         view.layer.position = position;
         view.layer.anchorPoint = anchorPoint;
     }
+    // https://stackoverflow.com/questions/26815263/setting-a-rotation-point-for-cgaffinetransformmakerotation-swift
 
     
     override func didReceiveMemoryWarning() {
