@@ -23,13 +23,14 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Add rounded corners to hands to make them look cleaner.
+        // Add rounded corners to hands.
         hourHand.layer.cornerRadius = 2
         minuteHand.layer.cornerRadius = 2
         
         update() // Call the update function.
-        // Initalize timer to call the update method once every two seconds.
-        timeUpdater = Timer.scheduledTimer(timeInterval: 2, target: self, selector: #selector(update), userInfo: nil, repeats: true)
+        
+        // Initalize timer to call the update function once every second.
+        timeUpdater = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(update), userInfo: nil, repeats: true)
         //FIXME: Find a more efficient way to do this.
     }
     
@@ -52,7 +53,7 @@ class ViewController: UIViewController {
     
     /// Rotates the hour hand x amount of radians based on the current time.
     func updateHourHand(hour: Int, minute: Int) {
-        let degree = CGFloat (30 * hour + minute / 2) // Calculate the amount of degrees to move minute hand.
+        let degree = CGFloat ((hour * 30) + (minute / 2)) // Calculate the amount of degrees to move minute hand.
         setAnchorPoint(anchorPoint: CGPoint(x: 0.5, y:1), view: hourHand) // Set the anchor point so the view rotates around the correct point.
         hourHand.transform = CGAffineTransform(rotationAngle: degree*(CGFloat.pi/180)) // Convert degree to radians and rotate around it.
     }
