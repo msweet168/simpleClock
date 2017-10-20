@@ -93,7 +93,7 @@
                         <constraints>
                             <constraint firstItem="nXm-e6-KIm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="0z7-NA-jS2"/>
                             <constraint firstItem="mMk-ld-8KG" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="3iK-OZ-NFy"/>
-                            <constraint firstItem="ET8-Ve-aeL" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="45D-iG-iWk"/>
+                            <constraint firstItem="ET8-Ve-aeL" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" id="45D-iG-iWk"/>
                             <constraint firstItem="ET8-Ve-aeL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="6zq-PT-QtM"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="R1n-AJ-cyt" secondAttribute="trailing" constant="43" id="7wx-Ya-Ibs"/>
                             <constraint firstItem="G9l-KA-m1r" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="8io-5b-oag"/>
@@ -101,7 +101,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="h8f-02-w9b" secondAttribute="bottom" constant="20" id="DaR-oM-eaJ"/>
                             <constraint firstItem="R1n-AJ-cyt" firstAttribute="top" secondItem="G9l-KA-m1r" secondAttribute="bottom" constant="45" id="LfV-FO-mck"/>
                             <constraint firstItem="mMk-ld-8KG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QdZ-Jf-yxB"/>
-                            <constraint firstItem="nXm-e6-KIm" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Reh-Mi-KQA"/>
+                            <constraint firstItem="nXm-e6-KIm" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" id="Reh-Mi-KQA"/>
                             <constraint firstItem="ddl-ez-Adb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SkX-1f-XDw"/>
                             <constraint firstItem="nXm-e6-KIm" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="aMd-hF-6cO"/>
                             <constraint firstItem="G9l-KA-m1r" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="e9x-TW-cmC"/>
@@ -160,7 +160,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="adE-ly-nTV">
-                                <rect key="frame" x="16" y="24" width="34" height="30"/>
+                                <rect key="frame" x="16" y="24" width="44" height="30"/>
                                 <state key="normal" title="Back"/>
                                 <connections>
                                     <action selector="dismissView" destination="B0A-b8-5hO" eventType="touchUpInside" id="Fla-h0-wft"/>
@@ -191,7 +191,7 @@
                             <constraint firstItem="adE-ly-nTV" firstAttribute="leading" secondItem="77G-t2-GNS" secondAttribute="leading" constant="16" id="d4m-4m-HaJ"/>
                             <constraint firstItem="18E-Qg-9MP" firstAttribute="top" secondItem="77G-t2-GNS" secondAttribute="top" id="myw-6i-xA1"/>
                             <constraint firstItem="MZN-PU-8Zs" firstAttribute="centerX" secondItem="CVy-1P-WaK" secondAttribute="centerX" id="rqm-TY-dH0"/>
-                            <constraint firstItem="18E-Qg-9MP" firstAttribute="leading" secondItem="adE-ly-nTV" secondAttribute="trailing" constant="28.5" id="uCJ-sh-ck3"/>
+                            <constraint firstItem="18E-Qg-9MP" firstAttribute="leading" secondItem="adE-ly-nTV" secondAttribute="trailing" constant="18.5" id="uCJ-sh-ck3"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="77G-t2-GNS"/>
                         <connections>
